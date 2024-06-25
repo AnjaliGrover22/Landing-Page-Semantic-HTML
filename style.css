@@ -1,0 +1,205 @@
+
+
+
+ label{
+
+display:block;
+margin-bottom:5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 30%;
+padding: 10px;
+border: 1px solid #c58c37;
+border-radius: 15px;
+}
+
+body{
+margin:0;
+padding:0;
+font-family:Arial, Helvetica, sans-serif;
+box-sizing:border-box;
+
+
+
+}
+
+header{
+background-color: red;
+color: white;
+padding:10px 20px;
+
+}
+
+nav a {
+
+color: white;
+margin-right: 20px;
+text-decoration: none;
+
+
+}
+
+nav a.logo{
+font-weight:bold;
+flex-grow:1;
+
+
+}
+
+main{
+ background-color: lightsalmon;
+ text-align:center;
+ padding: 50px 30px;
+
+}
+
+main p {
+color: blue;
+font-weight: bold;
+
+}
+
+.cta{
+
+display: inline-block;
+background-color: green;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+
+
+}
+
+.cta:hover{
+
+   background-color: blue;; 
+}
+
+
+figure img {
+
+    border: 0.3rem solid orange;
+    border-radius: 1rem;
+    width:100%;
+    height:auto;
+  
+
+}
+.content{
+    background-color:antiquewhite;
+    padding:10px;
+}
+
+h2{
+
+    color: blueviolet;
+    text-decoration:underline;
+    padding-top: 1em;
+    margin: 1em 1em;
+    
+}
+
+p+ h3{
+    padding: 1em;
+
+
+
+}
+h2 + p  {
+    margin-left: 3em;
+
+}
+
+#myadoptionlist li {
+
+    margin-left: 3em;
+
+}
+
+
+figure figcaption{
+
+text-align: center;
+font-size: smaller;
+font-weight:bold;
+color:green;
+
+}
+
+#get-in-touch{
+ margin:0 2em;
+ padding: 0.5em;
+ width: 40em;
+ 
+}
+
+#msg{
+
+    width: 50em;
+
+}
+
+
+footer{
+
+    background-color: lightsalmon;
+    height: 40px;
+    padding: 1em;
+
+
+}
+footer> p{
+text-align:left;
+
+}
+
+.dog-gallery-container{
+    font-family: Arial, sans-serif;
+    text-align: left; 
+
+
+}
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+
+
+
+}
+
+
+.dog-gallery{
+    
+     margin:2% 2% auto;
+    display:grid;
+    gap:1.5rem; 
+    grid-template-columns:50% 50%;
+  column-gap:2 rem; 
+   width:70%;
+   height:70%;
+   object-fit:cover;
+   justify-content: center;
+    
+
+}
+
+    
+.dog-gallery-item img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 5%;
+    
+    
+    }
+#dog1{
+
+    grid-column-start:1;
+    grid-column-end: 2;
+
+
+}

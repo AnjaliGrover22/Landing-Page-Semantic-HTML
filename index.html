@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page-HTML Semantics</title>
+    <style>
+</style>
+          <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <header>
+    <nav>
+        <a href="#" class="logo" >DogClub</a>
+        <a href="#about" >About Us</a>
+        <a href="#why-adopt">Why Adopt from Us</a>
+        <a href="#meet-dogs">Meet our Dogs</a>
+        <a href="#get-in-touch">Get In touch</a>
+    </nav>
+    
+   </header>
+   <main>
+    <h1>Find your Supportive Friend</h1>
+    <p>Dedicated to connecting loving families with cute dogs. 
+        Committed to promoting responsible pet ownership and providing support and resources to adopters</p>
+   <a href="#" class="cta">Get Started</a>
+    </main>
+
+
+    <div class="content">
+   <section id="about">
+    <article>
+        <h2>About Us</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore maiores dolores voluptate voluptas explicabo, porro eius libero, veritatis nostrum voluptatum repellendus quos error! Minima ea reprehenderit, maxime ut hic officiis.</p>
+    </article>
+    </section>
+    
+    <section id="why-adopt">
+        <article>
+            <h2>Why Adopt From Us</h2>
+            <ul id="myadoptionlist">
+             <li>Comprehensive Veterinary Checks</li>
+             <li>Behavioral Training for our Dogs</li>
+             <li>Most of them are of Calm Nature</li>
+             <li>Well Mannered</li>
+            </ul>
+        </article>
+       
+    </section>
+
+    <!-- <section id="meet-dogs">
+       
+        <div class="image-container">
+            <figure>
+                 <img src="https://placedog.net/500/280>" alt="Dog1">
+                 <figcaption>Bella</figcaption>
+            </figure>
+            <figure>
+                <img src="https://placedog.net/501/286" alt="Dog2">
+                <figcaption>Lucy</figcaption>
+           </figure>
+           </div>
+           <div class="image-container">
+            <figure>
+                 <img src="https://placedog.net/505/280" alt="Dog3">
+                 <figcaption>Molly</figcaption>
+            </figure>
+            <figure>
+                <img src="https://placedog.net/509/285" alt="Dog4">
+                <figcaption>Rocky</figcaption>
+           </figure>
+           </div>
+    </section> -->
+    <section class="dog-gallery-container">
+        <h2>Meet Our Dogs</h2>
+        <div class="dog-gallery">
+        <figure class="dog-gallery-item">
+            <img id="dog1" src="https://placedog.net/500/280>" alt="Dog1"></figure>
+        <figure class="dog-gallery-item">
+            <img id="dog2" src="https://placedog.net/501/286" alt="Dog2"></figure>
+        <figure class="dog-gallery-item">
+            <img id="dog3" src="https://placedog.net/505/280" alt="Dog3"></figure>
+        <figure class="dog-gallery-item">
+            <img id="dog4" src="https://placedog.net/509/285" alt="Dog4"></figure>
+        </div>      
+    </section>
+  <section id="get-in-touch">
+    <h2>Get In Touch</h2>
+    <div >
+        <p><h3>We'd love to hear from you!</h3></p>
+        <form >
+            <div>
+                <label for="fname">Your First Name</label>
+        <input type="text" id="fname">
+            </div>
+            <div>
+                <label for="lname">Your Last Name</label>
+                <input type="text" id="lname">
+    
+            </div>
+        <div>
+            <label for="email">Your Email Address</label>
+            <input type="email" id="email">
+    
+        </div>
+        <div>
+            <p>Enter your Message below:-</p>
+            <textarea id="msg" rows="9" cols="11">Your Message</textarea>
+    
+        </div>
+        
+        
+        </form>
+      </div>
+     </section>
+    </div>
+
+  <footer>
+    <p>© 2024 Dog Adoption Agency.</p>
+  </footer>
+      
+</body>
+    
+</html>
